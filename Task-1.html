@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #222;
+    color: white;
+}
+
+    </style>
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>This is a simple webpage example.</p>
+    </header>
+
+    <main>
+        <button id="alertButton">Click Me!</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Webpage</p>
+    </footer>
+
+    <script>
+document.getElementById('alertButton').addEventListener('click', function() {
+    alert('Hello! You clicked the button!');
+});
+
+    </script>
+</body>
+</html>
